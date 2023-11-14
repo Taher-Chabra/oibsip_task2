@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lora:wght@500;600;700&family=Martel:wght@300;400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Topbar with heading -->
+   <div class="topbar text-center">
+      <span>My Portfolio</span> 
+   </div>
+
+   <div class="container">
+
+      <!-- Pic and about section -->
+      <div class="row pt-2 pb-1">
+         <div class="col-12 col-md-4 col-xl-2 my-pic rounded">
+            <img src="images/my-picture.jpg" class="img-fluid rounded" alt="my picture">
+         </div>
+         <div class="col-12 col-md-8 col-xl-9 about">
+            <h4 class="pt-3 text-decoration-underline">About Me</h4>
+            <p>
+               Hey there! I'm Taher Chabra, a 21 year-old frontend developer currently pursuing my BCA at Manipal University Jaipur. My journey in web development started with a passion for creating user-friendly websites that not only function seamlessly but also look visually appealing.
+            </p>
+            <p>
+               I'm currently honing my skills as an intern at Oasis Infobyte, focusing on web development and design projects. Beyond coding, I'm a tech enthusiast, always eager to explore the latest in the digital world.
+            </p>
+            <p>
+               I believe in the power of adaptability and continuous learning. Each project I work on is an opportunity to push my limits and deliver my best. Looking forward to embracing the challenges in the ever-evolving realm of web development! 
+            </p>
+         </div>
+      </div>
+
+      <!-- Other Information -->
+      <div class="row second-row mt-md-5">
+
+         <!-- Education Modal -->
+         <div class="col-12 col-sm-6 col-md-2 mx-auto">
+            <div class="text-center">
+               <button class="btn button-text" data-bs-toggle="modal" data-bs-target="#Education">Education</button>
+            </div>
+            <div class="modal fade" id="Education">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h3>Education</h3>
+                        <button class="btn-close text-bg-light small" data-bs-dismiss="modal"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <span class="course">Bachelor's of Computer & Applications (BCA)</span>
+                           Manipal University Jaipur<br>
+                           2021 - 2024 (Expected)<br>
+                           Field : Computer Science<br>
+                        </p>
+                        <p>
+                           <span class="course">Higher Secondary Education</span>
+                           New Look Central School, Banswara<br>
+                           2019 - 2021<br>
+                           Field : Commerce<br>
+                           Aggregate : 94.6%
+                        </p>
+                     </div>
+                  </div>  
+               </div>   
+            </div>
+         </div>
+
+         <!-- Skills Modal -->
+         <div class="col-12 col-sm-6 col-md-2 mx-auto">
+            <div class="text-center">
+               <button class="btn button-text" data-bs-toggle="modal" data-bs-target="#Skills">Skills</button>
+            </div>
+            <div class="modal fade" id="Skills">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h3>Skills</h3>
+                        <button class="btn-close text-bg-light small" data-bs-dismiss="modal"></button>
+                     </div>
+                     <div class="modal-body">
+                        <h4>Technical Skills :</h4>
+                        <ul>
+                           <li>Languages : HTML, CSS, JavaScript</li>
+                           <li>Framework : Bootstrap</li>
+                        </ul>
+                        <h6>Version Control :</h6>
+                        <ul>
+                           <li>Git/GitHub : Proficient in using Git for version control.</li>
+                        </ul> 
+
+                        <h4>Soft Skills :</h4>
+                        <ul>
+                           <li>Adaptability : Quickly adjust to new technologies and environments.</li>
+                           <li>Team Collaboration : Effective communication and teamwork.</li>
+                           <li>Problem Solving : Analytical thinking and creative problem-solving.</li>
+                           <li>Communication : Express ideas clearly and concisely.</li>
+                        </ul>
+                     </div>
+                  </div>  
+               </div>   
+            </div>
+         </div>
+
+         <!-- Projects Modal -->
+         <div class="col-12 col-sm-6 col-md-2 mx-auto">
+            <div class="text-center">
+               <button class="btn button-text" data-bs-toggle="modal" data-bs-target="#Projects">Projects</button>
+            </div>
+            <div class="modal fade" id="Projects">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h3>Projects</h3>
+                        <button class="btn-close text-bg-light small" data-bs-dismiss="modal"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <ul>
+                              <h4>Calendar for Year - 2023</h4>
+                              <li>Github link : <a href="https://websitefpbytc.github.io/calender-year-2023/" target="_blank">Calender - 2023</a></li>
+                           </ul>
+                        </p>
+                        <p>
+                           <ul>
+                              <h4>YouTube - Homepage (Clone)</h4>
+                              <li>Github link : <a href="https://websitefpbytc.github.io/clone-youtube.com/youtube.html" target="_blank">Youtube - Home</a></li>
+                           </ul>
+                        </p>
+                        <p>
+                           <ul>
+                              <h4>AI Book Hub</h4>
+                              <li>Github link : <a href="https://websitefpbytc.github.io/oibsip_taskno1/" target="_blank">AI BOOK HUB</a></li>
+                           </ul>
+                        </p>
+                     </div>
+                  </div>  
+               </div>   
+            </div>
+         </div>
+
+         <!-- Internships Modal -->
+         <div class="col-12 col-sm-6 col-md-2 mx-auto">
+            <div class="text-center">
+               <button class="btn button-text" data-bs-toggle="modal" data-bs-target="#Internships">Internships</button>
+            </div>
+            <div class="modal fade" id="Internships">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h3>Internships</h3>
+                        <button class="btn-close text-bg-light small" data-bs-dismiss="modal"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <h4>Oasis Infobyte | Web Development and Design Intern</h4>
+                           Working as an intern at Oasis Infobyte, contributing to web development and design projects.<br>
+                           Applying knowledge of HTML, CSS, JavaScript, and Bootstrap to create visually appealing and responsive web pages.<br>
+                           Website: <a href="https://oasisinfobyte.com/" target="_blank">Oasis Infobyte</a><br>
+                           LinkedIn: <a href="https://in.linkedin.com/company/oasis-infobyte" target="_blank">Oasis Infobyte</a>
+                        </p>
+                     </div>
+                  </div>  
+               </div>   
+            </div>
+         </div>
+
+         <!-- Contact Info Modal -->
+         <div class="col-12 col-sm-6 col-md-2 mx-auto">
+            <div class="text-center">
+               <button class="btn button-text" data-bs-toggle="modal" data-bs-target="#ContactInfo">Contact Info</button>
+            </div>
+            <div class="modal fade" id="ContactInfo">
+               <div class="modal-dialog">
+                  <div class="modal-content area-modal">
+                     <div class="modal-header">
+                        <h3>Contact Info</h3>
+                        <button class="btn-close text-bg-light small" data-bs-dismiss="modal"></button>
+                     </div>
+                     <div class="modal-body">
+                        <address>
+                           <ul>
+                              <li>Name : Taher Chabra</li>
+                              <li>Address : Banswara, Rajasthan - 327001</li>
+                              <li>Email : taher.chabra2303@gmail.com</li>
+                              <li>LinkedIn : <a href="" target="_blank">My Profile</a></li>
+                           </ul>
+                        </address>
+                        <form action="https://formsubmit.co/6e0c94142c7b90f272859bc031720f92" method="POST">
+                           <span class=" badge rounded-pill translate-middle">
+                              Write me here
+                           </span>
+                           <input type="text" name="Name" placeholder="Name" autocomplete="off" required>
+                           <input type="email" name="Email" placeholder="email" autocomplete="off" required>
+                           <textarea placeholder="Message" name="Message" autocomplete="off" rows="3" minlength="10" required></textarea>
+                           <button class="btn send-btn" type="submit">Send</button>
+                        </form>
+                     </div>
+                  </div>  
+               </div>   
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Backdrop for blur effect -->
+   <div class="modal-backdrop"></div>
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script src="fileScript.js"></script>
+</body>
+</html>
